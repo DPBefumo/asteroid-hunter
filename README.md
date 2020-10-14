@@ -1,4 +1,4 @@
-# Asteroid Hunters=
+# Asteroid Hunter
 
 ## Project Goals
 
