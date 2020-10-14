@@ -6,7 +6,8 @@ For this project, I built a simple game with JavaScript. This was my first time 
 
 ## To Dos
 
-Add in scoring feature
-Add in beginning/end of game feature
-Add in high score feature
-Add in sprite feature
+* Scoring feature
+* Beginning/end of game feature
+* High score feature
+* Sprite feature
+* Music feature?
