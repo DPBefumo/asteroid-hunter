@@ -1,6 +1,3 @@
-const playerImg = 'https://png2.cleanpng.com/sh/a03602af49d66801d666dc983aa61a0d/L0KzQYm3V8AzN6h9gpH0aYP2gLBuTgNxaZRqeARqZoSwg8H5igRmNWNpRdV4bYD4hLb5TfdzaaFtgdV8LXPvccTvTf9nNaVmRadrM3HmSYO7gBJiQZc7RqoDOUS6QoO9UcU0OGY8UaQ8Nki2RIO1kP5o/kisspng-spacecraft-sprite-2d-computer-graphics-clash-of-ta-5b3ac924cba9f6.8894722615305792368342.png'
-const enemyImg = 'https://png2.cleanpng.com/sh/686eb70fd83129aa4dc57ca8b438b924/L0KzQYm3VsE0N5xse5H0aYP2gLBuTgBieJZ3RdN8dHX1f7rrTgN1cZRwfeQ2YXTrdcTwlvUueJ1mhtd9LXH2hLb5jBlle146eqQ5ZnXkRIrrWcY4QF83Uas6MEe2RYK8Usg5QGkAUagBNEW4PsH1h5==/kisspng-paper-asteroid-sticker-adhesive-planet-asteroids-5b20fea49d9678.2991073515288889966455.png'
-
 class Game {
     constructor () {
         let canvas = document.getElementById('game-screen')
@@ -85,7 +82,6 @@ class Player {
         this.game = game
         this.size = { x: 20, y: 20 }
         this.center = { x: gameSize.x / 2, y: gameSize.y - this.size.y * .75 }
-        this.image = playerImg
         this.keyboarder = Keyboarder
     }
     update () {
